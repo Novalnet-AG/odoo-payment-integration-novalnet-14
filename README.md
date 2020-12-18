@@ -1,0 +1,2 @@
+# Novalnet-Payment-Module-for-Odoo
+ODOO PAYMENT MODULE INTEGRATION BY NOVALNET 
