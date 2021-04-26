@@ -1,0 +1,37 @@
+*** Changelog ***
+
+= 2.3.0 - 2020.12.17 =
+* Fix       - Fetched customer number from the shop while placing order
+* Enhanced  - Implemented Instalment payment for Invoice, Instalment payment for Direct Debit SEPA, Carrier billing, PostFinance E-Finance, PostFinance Card, Bancontact and Multibanco payments
+* Enhanced  - Callback has been optimized for the payment module as per the new testcase
+* Removed   - Enable 3D secure field for Credit Card
+
+= 2.2.0 - 2020.09.12 =
+* New       - Implemented Save Card feature for Credit Card and Direct Debit SEPA payments 
+* Fix       - Chrome SameSite cookies
+* Enhanced  - Quotation get confirmed immediately to Sales Order after successful payment
+* Enhanced  - Callback has been optimized as per the new testcase	
+
+= 2.1.0 -  2020.05.25 =
+* New       - Implemented Direct Debit SEPA with payment guarantee, Invoice with payment guarantee and Barzahlen payments
+* Enhanced  - Implemented new encryption method for redirect payments
+* Enhanced  - On-hold transaction configuration has been implemented for Credit Card, Direct Debit SEPA, Direct Debit SEPA with payment guarantee, Invoice, Invoice with payment guarantee and PayPal
+* Enhanced  - Novalnet bank details will be displayed for on-hold transactions in Invoice, Invoice with payment guarantee and Prepayment
+* Enhanced  - Novalnet Merchant Administration portal link has been updated in shop admin
+* Enhanced  - Callback has been optimized as per the new testcase
+* Removed   - Payment reference configuration for Invoice / Prepayment
+
+= 2.0.1 - 2017.12.19 = 
+* Enhanced  - Dynamic IP control applied through domain instead of static IP in vendor script. Actual IP of Novalnet will be extracted in realtime from the domain
+* Removed   - Enable debug mode configuration in Merchant script management
+
+= 2.0.0 - 2017.09.07 = 
+* New       - Implemented latest payment form(MOTO)
+* New       - Implemented Credit Card 3D secure, EPS, giropay and Przelewy24 payment methods
+* New       - On-hold transactions for PayPal implemented
+* Enhanced  - Added new parameter in all API calls
+* Enhanced  - Novalnet payment module has been optimized as per new testcase
+* Compatible- Tested with Odoo version 10.0
+
+= 1.0.0 - 2016.03.15  =
+*          - New release
