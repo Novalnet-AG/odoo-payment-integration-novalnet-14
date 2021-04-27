@@ -1,6 +1,6 @@
 # ODOO PAYMENT MODULE INTEGRATION BY NOVALNET 
 
-The Odoo payment module integration from Novalnet allows you to accept payments worldwide, fully automate your payment processing and offer seamless payment experiences – thus simplifying payment processing with a single integration
+The <a href="https://www.novalnet.com/modul/odoo">Odoo payment module</a> integration from Novalnet allows you to accept payments worldwide, fully automate your payment processing and offer seamless payment experiences – thus simplifying payment processing with a single integration
 
 ## Installation and Configuration
 ### Step 1: Module Installation
