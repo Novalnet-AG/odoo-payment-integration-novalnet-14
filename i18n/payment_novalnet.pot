@@ -1,0 +1,422 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * payment_novalnet
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-15 11:28+0530\n"
+"PO-Revision-Date: 2019-11-19 16:46+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:90
+msgid "Merchant ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:90
+msgid "Enter Novalnet merchant ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:91
+msgid "Authentication code"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:91
+msgid "Enter Novalnet authentication code"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:92
+msgid "Project ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:92
+msgid "Enter Novalnet project ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:93
+msgid "Tariff ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:93
+msgid "Enter Novalnet tariff ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:94
+msgid "Payment access key"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:94
+msgid "Enter the Novalnet payment access key"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:95 models/payment.py:99 models/payment.py:103
+#: models/payment.py:107 models/payment.py:111
+msgid "Draft"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:95 models/payment.py:99 models/payment.py:103
+#: models/payment.py:107 models/payment.py:111
+msgid "Pending"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:96 models/payment.py:100 models/payment.py:104
+#: models/payment.py:108 models/payment.py:112
+msgid "Done"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:96 models/payment.py:100 models/payment.py:104
+#: models/payment.py:108 models/payment.py:112
+msgid "Error"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:97 models/payment.py:101 models/payment.py:105
+#: models/payment.py:109 models/payment.py:113
+msgid "Canceled"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:98
+msgid "Completed order status"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:102
+msgid "Onhold order status"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:106
+msgid "Payment pending order status"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:110
+msgid "Callback order status"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:114
+msgid "Canceled order status"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:115
+msgid "Capture"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:115
+msgid "Authorize"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:115
+msgid "Payment Action"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:115
+msgid "Choose whether or not the payment should be charged immediately. Capture completes the transaction by transferring the funds from buyer account to merchant account. Authorize verifies payment details and reserves funds to capture it later, giving time for the merchant to decide on the order"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:116
+msgid "Minimum transaction amount for authorization (in minimum unit of currency. E.g. enter 100 which is equal to 1.00)"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:116
+msgid "In case the order amount exceeds the mentioned limit, the transaction will be set on-hold till your confirmation of the transaction. You can leave the field empty if you wish to process all the transactions as on-hold."
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:117 models/payment.py:118
+msgid "Payment due date (in days)"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:117
+msgid "Enter the number of days after which the payment should be processed (must be between 2 and 14 days)"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:118
+msgid "Enter the number of days to transfer the payment amount to Novalnet (must be greater than 7 days). In case if the field is empty, 14 days will be set as due date by default"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:119
+msgid "Slip expiry date (in days)"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:119
+msgid "Enter the number of days to pay the amount at store near you. If the field is empty, 14 days will be set as default."
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:120
+msgid "Allow manual testing of the Notification / Webhook URL"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:120
+msgid "This option will allow performing a manual execution. Please disable this option before setting your shop to LIVE mode, to avoid unauthorized calls from external parties (excl. Novalnet)."
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:121
+msgid "Send e-mail to"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:121
+msgid "E-mail address of the recipient"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:274
+msgid "Basic parameter not valid"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:395
+#, python-format
+msgid "Novalnet: Error occured while fetching the transaction details - '%s'"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:561 models/payment.py:727 models/payment.py:733
+#: models/payment.py:747 models/payment.py:748 models/payment.py:754
+#: models/payment.py:827
+msgid "Invoice"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:563 models/payment.py:728 models/payment.py:749
+#: models/payment.py:827
+msgid "Prepayment"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:604
+#, python-format
+msgid "Slip Expire date: %s"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:653
+#, python-format
+msgid "ending in %s (expires "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:655
+#, python-format
+msgid "IBAN %s"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:726 models/payment.py:746
+msgid "Credit/Debit Cards"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:729 models/payment.py:750
+msgid "Instant Bank Transfer"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:730 models/payment.py:751
+msgid "PayPal"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:731 models/payment.py:732 models/payment.py:752
+#: models/payment.py:753
+msgid "Direct Debit SEPA"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:734 models/payment.py:755
+msgid "iDEAL"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:735 models/payment.py:756
+msgid "eps"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:736 models/payment.py:757
+msgid "Barzahlen/viacash"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:737 models/payment.py:758
+msgid "giropay"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:738 models/payment.py:759
+msgid "Przelewy24"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:739 models/payment.py:760
+msgid "Multibanco"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:740 models/payment.py:761
+msgid "Direct Carrier Billing"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:741 models/payment.py:762
+msgid "PostFinance Card"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:742 models/payment.py:763
+msgid "PostFinance E-Finance"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:743 models/payment.py:764
+msgid "Bancontact"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:744 models/payment.py:765
+msgid "Instalment by Invoice"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:745 models/payment.py:766
+msgid "Instalment by Direct Debit SEPA"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:786
+#, python-format
+msgid "Novalnet transaction ID: %s"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:786
+msgid "Test order"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:789
+msgid "This is processed as a guarantee payment"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:792
+msgid "Your order is under verification and we will soon update you with the order status. Please note that this may take upto 24 hours."
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:794
+msgid "Your order is under verification and once confirmed, we will send you our bank details to where the order amount should be transferred. Please note that this may take upto 24 hours."
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:805
+msgid "Please transfer the amount of "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:805
+msgid " to the following account "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:807
+msgid "on or before "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:808
+msgid "Account holder: "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:808
+msgid "Bank: "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:808
+msgid "Place: "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:808
+msgid "IBAN: "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:808
+msgid "BIC: "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:808
+msgid "Please use any of the following payment references when transferring the amount. This is necessary to match it with your corresponding order"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:808
+msgid "Payment Reference 1: "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:808
+msgid "Payment Reference 2: "
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:818
+#, python-format
+msgid "Please use the following payment reference details to pay the amount of %s"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:818
+#, python-format
+msgid " %s at a Multibanco ATM or through your internet banking."
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:819
+#, python-format
+msgid "Partner Payment Reference: %s"
+msgstr ""
