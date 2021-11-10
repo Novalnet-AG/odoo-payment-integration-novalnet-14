@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="payment_acquirer_novalnet" model="payment.acquirer">
+            <field name="name">Pay with Novalnet (over 100 payment methods worldwide)</field>
+            <field name="image_128" type="base64" file="payment_novalnet/static/src/img/novalnet_icon.png"/>
+            <field name="provider">novalnet</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="view_template_id" ref="novalnet_form"/>
+            <field name="registration_view_template_id" ref="novalnet_s2s_form"/>
+            <field name="description" type="html">
+                <p>
+                PCI Compliant, seamless integration with the various types of payment and payment-related services integrated into one unique platform. Please contact us at <a href="mailto:sales@novalnet.de">sales@novalnet.de</a>
+                </p>
+                <ul class="list-inline">
+                    <li><i class="fa fa-check"/>Online Payment <i class="fa fa-check"/>Payment Status Tracking <i class="fa fa-check"/>Save Cards</li>
+                </ul>
+            </field>
+            
+            <field name="novalnet_vendor"/>
+            <field name="novalnet_auth_code"/>
+            <field name="novalnet_product"/>
+            <field name="novalnet_tariff"/>
+            <field name="novalnet_access_key"/>
+            <field name="novalnet_manual_check_limit_amount"></field>
+            <field name="novalnet_sepa_due_date"></field>
+            <field name="novalnet_invoice_due_date"></field>
+            <field name="novalnet_cashpayment_slip_expiry_date"></field>
+            <field name="novalnet_callbackscript_email_to"/>
+        </record>
+    </data>
+</odoo>
