@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="acquirer_form_novalnet" model="ir.ui.view">
+            <field name="name">acquirer.form.novalnet</field>
+            <field name="model">payment.acquirer</field>
+            <field name="inherit_id" ref="payment.acquirer_form"/>
+            <field name="arch" type="xml">
+				<xpath expr='//group[@name="acquirer"]' position='after'>
+					<h3 attrs="{'invisible': [('provider', '!=', 'novalnet')]}">For additional configurations login to Novalnet Merchant Administration portal. To login to the Portal you need to have an account at Novalnet. If you don't have one yet, please contact sales@novalnet.de / tel. +49 (089) 923068320</h3>
+					<h3 attrs="{'invisible': [('provider', '!=', 'novalnet')]}">To use the PayPal payment method please enter your PayPal API details in Novalnet Merchant Administration portal</h3>
+					<group attrs="{'invisible': [('provider', '!=', 'novalnet')]}">
+						<field name="novalnet_test_mode" attrs="{'required': [('provider', '=', 'novalnet')]}"/>
+						<field name="novalnet_vendor" attrs="{'required': [('provider', '=', 'novalnet')]}"/>
+                        <field name="novalnet_auth_code" attrs="{'required': [('provider', '=', 'novalnet')]}"/>
+                        <field name="novalnet_product" attrs="{'required': [('provider', '=', 'novalnet')]}"/>
+                        <field name="novalnet_tariff" attrs="{'required': [('provider', '=', 'novalnet')]}"/>
+                        <field name="novalnet_access_key" attrs="{'required': [('provider', '=', 'novalnet')]}"/>
+                        <field name="novalnet_manual_check_limit"/>
+                        <field name="novalnet_order_completion_status"/>
+                        <field name="novalnet_referrer_id"/>
+						<field name="novalnet_transaction_reference_1"/>
+						<field name="novalnet_transaction_reference_2"/>
+					</group>
+					<h3 attrs="{'invisible': [('provider', '!=', 'novalnet')]}">Merchant script management</h3>
+					<group attrs="{'invisible': [('provider', '!=', 'novalnet')]}">
+						<field name="novalnet_callbackscript_test_mode"/>
+						<field name="novalnet_callbackscript_email"/>
+						<field name="novalnet_callbackscript_email_from"/>
+						<field name="novalnet_callbackscript_email_to"/>
+						<field name="novalnet_callbackscript_email_bcc"/>
+						<field name="novalnet_callbackscript_notify_url"/>
+					</group>
+					<h3 attrs="{'invisible': [('provider', '!=', 'novalnet')]}">Credit Card</h3>
+					<group attrs="{'invisible': [('provider', '!=', 'novalnet')]}">
+						<field name="novalnet_enable_cc3d"/>
+					</group>
+					<h3 attrs="{'invisible': [('provider', '!=', 'novalnet')]}">Direct Debit SEPA</h3>
+					<group attrs="{'invisible': [('provider', '!=', 'novalnet')]}">
+						<field name="novalnet_sepa_due_date"/>
+					</group>
+					<h3 attrs="{'invisible': [('provider', '!=', 'novalnet')]}">Invoice</h3>
+					<group attrs="{'invisible': [('provider', '!=', 'novalnet')]}">
+						<field name="novalnet_invoice_callback_order_status"/>
+						<field name="novalnet_invoice_due_date"/>
+						<field name="novalnet_invoice_payment_reference_1"/>
+						<field name="novalnet_invoice_payment_reference_2"/>
+						<field name="novalnet_invoice_payment_reference_3"/>
+					</group>
+					<h3 attrs="{'invisible': [('provider', '!=', 'novalnet')]}">Prepayment</h3>
+					<group attrs="{'invisible': [('provider', '!=', 'novalnet')]}">
+						<field name="novalnet_prepayment_callback_order_status"/>
+						<field name="novalnet_prepayment_payment_reference_1"/>
+						<field name="novalnet_prepayment_payment_reference_2"/>
+						<field name="novalnet_prepayment_payment_reference_3"/>
+                    </group>
+					<h3 attrs="{'invisible': [('provider', '!=', 'novalnet')]}">PayPal</h3>
+                    <group attrs="{'invisible': [('provider', '!=', 'novalnet')]}">
+						<field name="paypal_payment_pending_status"/>
+					</group>
+                    <h3 attrs="{'invisible': [('provider', '!=', 'novalnet')]}">Przelewy24</h3>
+                    <group attrs="{'invisible': [('provider', '!=', 'novalnet')]}">
+						<field name="przelewy24_payment_pending_status"/>
+					</group>
+				</xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

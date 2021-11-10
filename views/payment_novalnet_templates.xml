@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <template id="novalnet_form">
+            <form t-if="acquirer.novalnet_vendor" t-att-action="tx_url" method="post" target="_self">
+            <div>
+                  <!--Vendor Information -->
+                <input type="hidden" name="data_set" t-att-data-action-url="tx_url" data-remove-me=""/>
+                <input type='hidden' name='vendor' t-att-value='vendor'/>
+                <input type='hidden' name='product' t-att-value='product'/>
+                <input type='hidden' name='tariff' t-att-value="tariff"/>
+                <input type='hidden' name='auth_code' t-att-value="auth_code"/>
+                <!--Payment Information -->
+                <input type='hidden' name='amount' t-att-value="amount"/>
+                <input type='hidden' name='test_mode' t-att-value="test_mode"/>
+                <input type='hidden' name='lang' t-att-value='lang'/>
+                <input type='hidden' name='currency' t-att-value="currency"/>
+                <input type="hidden" name="uniqid" t-att-value="uniqid"/>
+                <input type='hidden' name='hash' t-att-value="hash"/>
+                <input type='hidden' name='implementation' t-att-value="implementation"/>
+                <input type='hidden' name='order_no' t-att-value='reference'/>
+                <input type='hidden' name='return_url' t-att-value="return_url"/>
+                <input type='hidden' name='error_return_url' t-att-value="error_return_url"/>
+                <input type='hidden' name='return_method' t-att-value="return_method"/>
+                <input type='hidden' name='error_return_method' t-att-value="error_return_method"/>
+                <t t-if="sepa_due_date">
+                    <input type='hidden' name='sepa_due_date' t-att-value='sepa_due_date'/>
+                </t>
+                <t t-if="invoice_due_date">
+                    <input type='hidden' name='due_date' t-att-value='invoice_due_date'/>
+                </t>
+                <t t-if="on_hold">
+                    <input type='hidden' name='on_hold' t-att-value='on_hold'/>
+                </t>
+                <t t-if="novalnet_cc_3d">
+                    <input type='hidden' name='cc_3d' t-att-value='novalnet_cc_3d'/>
+                </t>
+                <!-- Customer Information-->
+                <input type='hidden' name='gender' t-att-value='gender'/>
+                <input type='hidden' name='first_name' t-att-value="first_name"/>
+                <input type='hidden' name='last_name' t-att-value='last_name'/>
+                <input type='hidden' name='email' t-att-value="email"/>
+                <input type='hidden' name='tel' t-att-value="tel"/>
+                <t t-if="company">
+                    <input type='hidden' name='company' t-att-value='company'/>
+                </t>
+                <input type='hidden' name='street' t-att-value='street'/>
+                <input type='hidden' name='search_in_street' t-att-value="search_in_street"/>
+                <input type='hidden' name='city' t-att-value="city"/>
+                <input type='hidden' name='zip' t-att-value="zip_code"/>
+                <input type='hidden' name='country_code' t-att-value="country_code"/>
+                <input type='hidden' name='country' t-att-value="country_code"/>
+                <!--System Information -->
+                <input type="hidden" name="system_name" t-att-value="system_name"/>
+                <input type="hidden" name='system_version' t-att-value="system_version"/>
+                <input type="hidden" name='system_ip' t-att-value="system_ip"/>
+                <input type='hidden' name='remote_ip' t-att-value="remote_ip"/>
+                <input type='hidden' name='system_url' t-att-value="system_url"/>
+                <!-- Additional Information-->
+                <t t-if="referrer_id">
+                    <input type='hidden' name='referrer_id' t-att-value='referrer_id'/>
+                </t>
+                <t t-if="input1">
+                    <input type='hidden' name='input1' t-att-value='input1'/>
+                    <input type='hidden' name='inputval1' t-att-value='inputval1'/>
+                </t>
+                <t t-if="input2">
+                    <input type='hidden' name='input2' t-att-value='input2'/>
+                    <input type='hidden' name='inputval2' t-att-value='inputval2'/>
+                </t>
+                <t t-if="show_test_mode">
+                    <p style="color:red"><![CDATA[The payment will be processed in the test mode therefore amount for this transaction will not be charged]]></p>
+                </t>
+
+                <!-- Submit-->
+                <button id="payment_novalnet" type="submit" width="100px" t-att-class="submit_class">
+                    <img t-if="not submit_txt" src="/payment_novalnet/static/src/img/novalnet_icon.png"/>
+                    <span t-if="submit_txt"><t t-esc="submit_txt"/> <span class="fa fa-long-arrow-right"/></span>
+                </button>
+                <p><![CDATA[After the successful verification, you will be redirected to Novalnet secure order page to proceed with the payment]]></p>
+                <p><![CDATA[Please don’t close the browser after successful payment, until you have been redirected back to the Shop</p>]]></p>
+			</div>
+        </form>
+            <t t-att-value="novalnet_validation_message"></t>
+            <input type='hidden' name='novalnet_validation_message' t-att-value="novalnet_validation_message"/>
+        </template>
+        <template id="assets_frontend" inherit_id="website.assets_frontend" name="payment_novalnet">
+          <xpath expr="." position="inside">
+              <script type="text/javascript" src="/payment_novalnet/static/src/js/payment_novalnet_form.js"></script>
+          </xpath>
+        </template>
+    </data>
+</odoo>
