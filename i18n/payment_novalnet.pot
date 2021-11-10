@@ -1,0 +1,376 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_novalnet
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-09 13:35+0530\n"
+"PO-Revision-Date: 2019-11-19 16:46+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+#. module: payment_novalnet
+#: models/payment.py:89
+msgid "Merchant ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:89
+msgid "Enter Novalnet merchant ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:90
+msgid "Authentication code"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:90
+msgid "Enter Novalnet authentication code"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:91
+msgid "Project ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:91
+msgid "Enter Novalnet project ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:92
+msgid "Tariff ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:92
+msgid "Enter Novalnet tariff ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:93
+msgid "Payment access key"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:93
+msgid "Enter the Novalnet payment access key"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:94 models/payment.py:98 models/payment.py:102#. module: payment_novalnet
+#: models/payment.py:106 models/payment.py:110
+msgid "Draft"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:94 models/payment.py:98 models/payment.py:102#. module: payment_novalnet
+#: models/payment.py:106 models/payment.py:110
+msgid "Pending"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:95 models/payment.py:99 models/payment.py:103#. module: payment_novalnet
+#: models/payment.py:107 models/payment.py:111
+msgid "Done"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:95 models/payment.py:99 models/payment.py:103#. module: payment_novalnet
+#: models/payment.py:107 models/payment.py:111
+msgid "Error"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:96 models/payment.py:100 models/payment.py:104#. module: payment_novalnet
+#: models/payment.py:108 models/payment.py:112
+msgid "Canceled"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:97
+msgid "Order completion status"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:101
+msgid "Onhold order status"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:105
+msgid "Order status for the pending payment"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:109
+msgid "Callback order status"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:113
+msgid "Cancellation order status"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:114
+msgid "Capture"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:114
+msgid "Authorize"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:114
+msgid "Payment action"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:115
+msgid "Minimum transaction limit for authorization(in minimum unit of currency. E.g. enter 100 which is equal to 1.00)"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:115
+msgid "In case the order amount exceeds the mentioned limit, the transaction will be set on-hold till your confirmation of the transaction. You can leave the field empty if you wish to process all the transactions as on-hold."
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:116
+msgid "Enable 3D secure"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:116
+msgid "The 3D-Secure will be activated for credit cards. The issuing bank prompts the buyer for a password what, in turn, help to prevent a fraudulent payment. It can be used by the issuing bank as evidence that the buyer is indeed their card holder. This is intended to help decrease a risk of charge-back."
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:117
+msgid "SEPA payment duration (in days)"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:117
+msgid "Enter the number of days after which the payment should be processed (must be between 2 and 14 days)"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:118
+msgid "Payment due date (in days)"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:118
+msgid "Enter the number of days to transfer the payment amount to Novalnet (must be greater than 7 days). In case if the field is empty, 14 days will be set as due date by default"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:119
+msgid "Slip expiry date (in days)"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:119
+msgid "Enter the number of days to pay the amount at store near you. If the field is empty, 14 days will be set as default."
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:120
+msgid "Referrer ID"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:120
+msgid "Enter the referrer ID of the person/company who recommended you Novalnet"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:121
+msgid "Deactivate IP address control (for test purpose only)"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:121
+msgid "This option will allow performing a manual execution. Please disable this option before setting your shop to LIVE mode, to avoid unauthorized calls from external parties (excl. Novalnet)."
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:122
+msgid "Enable E-mail notification for callback"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:123
+msgid "E-mail address (From)"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:123
+msgid "E-mail address of the sender"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:124
+msgid "E-mail address (To)"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:124
+msgid "E-mail address of the recipient"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:125
+msgid "E-mail address (Bcc)"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:125
+msgid "E-mail address of the recipient for BCC"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:267
+msgid "Basic parameter not valid"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:386 models/payment.py:588 models/payment.py:594#. module: payment_novalnet
+#: models/payment.py:646
+msgid "Invoice"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:388 models/payment.py:589 models/payment.py:646
+msgid "Prepayment"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:441
+#, python-format
+msgid "Slip Expire date: %s"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:493
+#, python-format
+msgid "ending in %s (expires"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:498
+#, python-format
+msgid "IBAN (Direct Debit SEPA) %s"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:587
+msgid "Credit Card"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:590
+msgid "Instant Bank Transfer"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:591
+msgid "PayPal"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:592 models/payment.py:593
+msgid "Direct Debit SEPA"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:595
+msgid "iDEAL"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:596
+msgid "eps"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:597
+msgid "Cashpayment"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:598
+msgid "giropay"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:599
+msgid "Przelewy24"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:623
+#, python-format
+msgid ""
+"\n"
+"Novalnet transaction ID: %s \n"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:623
+msgid "Test order\n"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:638
+msgid "Please transfer the amount to the below mentioned account details of our payment processor Novalnet"
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:638
+msgid "Due date: "
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:638
+msgid "Account holder: "
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:638
+msgid "IBAN: "
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:638
+msgid "BIC: "
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:638
+msgid "Bank: "
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:638
+msgid "Amount: "
+msgstr ""
+
+#. module: payment_novalnet
+#: models/payment.py:638
+msgid "Please use the following payment reference for your money transfer, as only through this way your payment is matched and assigned to the order:"
+msgstr ""

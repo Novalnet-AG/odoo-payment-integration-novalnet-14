@@ -1,0 +1,770 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_novalnet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-10 12:04+0000\n"
+"PO-Revision-Date: 2020-09-10 17:40+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: de\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid ""
+"\n"
+"Novalnet transaction ID: %s \n"
+msgstr ""
+"\n"
+"Novalnet Transaktions-ID: %s\n"
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid ""
+". This setting will allow you to receive notification about transactions."
+msgstr ""
+" eintragen. Diese Einstellung ermöglicht es Ihnen, Benachrichtigungen über "
+"Transaktionen zu erhalten."
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid ""
+". To login to the Portal you need to have an account at Novalnet. If you "
+"don't have one yet, please contact"
+msgstr ""
+" ein. Um sich in das Portal einzuloggen, benötigen Sie einen Account bei "
+"Novalnet. Falls Sie diesen noch nicht haben, kontaktieren Sie bitte"
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid "/ tel. +49 (089) 923068320"
+msgstr "(Tel: +49 (089) 923068320)"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Account holder: "
+msgstr "Kontoinhaber"
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_form
+msgid ""
+"After the successful verification, you will be redirected to Novalnet "
+"secure order page to proceed with the payment"
+msgstr ""
+" Nach der erfolgreichen Überprüfung werden Sie auf die abgesicherte "
+"Novalnet-Bestellseite umgeleitet, um die Zahlung fortzusetzen. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Amount: "
+msgstr "Betrag"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_auth_code
+#, python-format
+msgid "Authentication code"
+msgstr " Authentifizierungscode"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_manual_check_limit__authorize
+#, python-format
+msgid "Authorize"
+msgstr "Zahlung autorisieren "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "BIC: "
+msgstr "BIC"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Bank: "
+msgstr "Bank"
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid "Barzahlen"
+msgstr "Barzahlen"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Basic parameter not valid"
+msgstr " Ungültige Parameter für die Händlereinstellungen "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_callback_order_status
+#, python-format
+msgid "Callback order status"
+msgstr " Callback-Bestellstatus "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_callback_order_status__cancel
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_completion_order_status__cancel
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_cancellation_status__cancel
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_confirmation_status__cancel
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_pending_order_status__cancel
+#, python-format
+msgid "Canceled"
+msgstr "Storniert"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_on_hold_cancellation_status
+#, python-format
+msgid "Cancellation order status"
+msgstr " Bestellstatus für Stornierung "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_manual_check_limit__capture
+#, python-format
+msgid "Capture"
+msgstr "Zahlung einziehen "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Cashpayment"
+msgstr "Barzahlen"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+#, python-format
+msgid "Credit Card"
+msgstr " Kreditkarte"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_callbackscript_test_mode
+#, python-format
+msgid "Deactivate IP address control (for test purpose only)"
+msgstr "Deaktivieren Sie die IP-Adresskontrolle (nur zu Testzwecken) "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+#, python-format
+msgid "Direct Debit SEPA"
+msgstr "Lastschrift SEPA "
+
+#. module: payment_novalnet
+#: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_table__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_callback_order_status__done
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_completion_order_status__done
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_cancellation_status__done
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_confirmation_status__done
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_pending_order_status__done
+#, python-format
+msgid "Done"
+msgstr "Abgeschlossen"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_callback_order_status__draft
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_completion_order_status__draft
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_cancellation_status__draft
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_confirmation_status__draft
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_pending_order_status__draft
+#, python-format
+msgid "Draft"
+msgstr "Entwurf"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Due date: "
+msgstr "Fälligkeitsdatum"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_callbackscript_email_bcc
+#, python-format
+msgid "E-mail address (Bcc)"
+msgstr "Emailadresse (Bcc) "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_callbackscript_email_from
+#, python-format
+msgid "E-mail address (From)"
+msgstr "Emailadresse (Absender) "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_callbackscript_email_to
+#, python-format
+msgid "E-mail address (To)"
+msgstr "Emailadresse (An) "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_callbackscript_email_to
+#, python-format
+msgid "E-mail address of the recipient"
+msgstr "Emailadresse des Empfängers "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_callbackscript_email_bcc
+#, python-format
+msgid "E-mail address of the recipient for BCC"
+msgstr "Emailadresse des Empfängers für Bcc"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_callbackscript_email_from
+#, python-format
+msgid "E-mail address of the sender"
+msgstr " Emailadresse des Absenders "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_enable_cc3d
+#, python-format
+msgid "Enable 3D secure"
+msgstr "3D-Secure aktivieren "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_callbackscript_email
+#, python-format
+msgid "Enable E-mail notification for callback"
+msgstr " Email-Benachrichtigung für Callback aktivieren "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_auth_code
+#, python-format
+msgid "Enter Novalnet authentication code"
+msgstr " Geben Sie Ihren Novalnet-Authentifizierungscode ein. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_vendor
+#, python-format
+msgid "Enter Novalnet merchant ID"
+msgstr "Geben Sie Ihre Novalnet-Händler-ID ein. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_product
+#, python-format
+msgid "Enter Novalnet project ID"
+msgstr "Geben Sie Ihre Novalnet-Projekt-ID ein. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_tariff
+#, python-format
+msgid "Enter Novalnet tariff ID"
+msgstr "Geben Sie Ihre Novalnet-Tarif-ID ein. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_access_key
+#, python-format
+msgid "Enter the Novalnet payment access key"
+msgstr "Geben Sie den Novalnet-Zahlungs-Zugriffsschlüssel ein. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_sepa_due_date
+#, python-format
+msgid ""
+"Enter the number of days after which the payment should be processed (must "
+"be between 2 and 14 days)"
+msgstr ""
+" Geben Sie die Anzahl der Tage ein, nach denen die Zahlung vorgenommen "
+"werden soll (muss zwischen 2 und 14 Tagen liegen). "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_cashpayment_slip_expiry_date
+#, python-format
+msgid ""
+"Enter the number of days to pay the amount at store near you. If the field "
+"is empty, 14 days will be set as default."
+msgstr ""
+"Geben Sie die Anzahl der Tage ein, um den Betrag in einer Barzahlen-"
+"Partnerfiliale in Ihrer Nähe zu bezahlen. Wenn das Feld leer ist, werden "
+"standardmäßig 14 Tage als Fälligkeitsdatum gesetzt. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_invoice_due_date
+#, python-format
+msgid ""
+"Enter the number of days to transfer the payment amount to Novalnet (must "
+"be greater than 7 days). In case if the field is empty, 14 days will be set "
+"as due date by default"
+msgstr ""
+"Geben Sie die Anzahl der Tage ein, binnen derer die Zahlung bei Novalnet "
+"eingehen soll (muss größer als 7 Tage sein). Falls dieses Feld leer ist, "
+"werden 14 Tage als Standard-Zahlungsfrist gesetzt "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_referrer_id
+#, python-format
+msgid ""
+"Enter the referrer ID of the person/company who recommended you Novalnet"
+msgstr ""
+"Geben Sie die Partner-ID der Person / des Unternehmens ein, welche / "
+"welches Ihnen Novalnet empfohlen hat. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_callback_order_status__error
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_completion_order_status__error
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_cancellation_status__error
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_confirmation_status__error
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_pending_order_status__error
+#, python-format
+msgid "Error"
+msgstr "Fehler"
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid "For additional configurations login to"
+msgstr "Um zusätzliche Einstellungen vorzunehmen, loggen Sie sich in das"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "IBAN (Direct Debit SEPA) %s"
+msgstr "IBAN (SEPA-Lastschrift) %s "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "IBAN: "
+msgstr "IBAN"
+
+#. module: payment_novalnet
+#: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_table__id
+msgid "ID"
+msgstr "ID"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_manual_check_limit_amount
+#, python-format
+msgid ""
+"In case the order amount exceeds the mentioned limit, the transaction will "
+"be set on-hold till your confirmation of the transaction. You can leave the "
+"field empty if you wish to process all the transactions as on-hold."
+msgstr ""
+"Übersteigt der Bestellbetrag das genannte Limit, wird die Transaktion, bis "
+"zu ihrer Bestätigung durch Sie, auf on hold gesetzt. Sie können das Feld "
+"leer lassen, wenn Sie möchten, dass alle Transaktionen als on hold "
+"behandelt werden. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Instant Bank Transfer"
+msgstr " Sofortüberweisung"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+#, python-format
+msgid "Invoice"
+msgstr " Kauf auf Rechnung "
+
+#. module: payment_novalnet
+#: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_table____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_vendor
+#, python-format
+msgid "Merchant ID"
+msgstr " Händler-ID "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_manual_check_limit_amount
+#, python-format
+msgid ""
+"Minimum transaction limit for authorization(in minimum unit of currency. E."
+"g. enter 100 which is equal to 1.00)"
+msgstr ""
+" Mindesttransaktionsbetrag für die Autorisierung (in der kleinsten "
+"Währungseinheit, z.B. 100 Cent = entsprechen 1.00 EUR) "
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid "Notification / Webhook URL Setup"
+msgstr "Notifikation & Webhook -URL Einrichten"
+
+#. module: payment_novalnet
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__provider__novalnet
+msgid "Novalnet"
+msgstr "Novalnet"
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid "Novalnet Administration portal"
+msgstr "Novalnet-adminportal"
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid "Novalnet Merchant Administration Portal"
+msgstr "Novalnet-Händleradminportal"
+
+#. module: payment_novalnet
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_token__novalnet_payment_method
+msgid "Novalnet Payment Method"
+msgstr "Novalnet-Zahlungsart"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Novalnet: Error occured while fetching the transaction details - '%s'"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_on_hold_confirmation_status
+#, python-format
+msgid "Onhold order status"
+msgstr " On-hold-Bestellstatus "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_completion_order_status
+#, python-format
+msgid "Order completion status"
+msgstr " Abschluss-Status der Bestellung "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_pending_order_status
+#, python-format
+msgid "Order status for the pending payment"
+msgstr " Bestellstatus der ausstehenden Zahlung "
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid "Order status management"
+msgstr "Verwaltung des Bestellstatus"
+
+#. module: payment_novalnet
+#: model:payment.acquirer,display_as:payment_novalnet.payment_acquirer_novalnet
+#: model:payment.acquirer,name:payment_novalnet.payment_acquirer_novalnet
+msgid "Pay with Novalnet (over 100 payment methods worldwide)"
+msgstr "Bezahlen mit Novalnet (über 100 Zahlungsarten Weltweit)"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "PayPal"
+msgstr "PayPal"
+
+#. module: payment_novalnet
+#: model:ir.model,name:payment_novalnet.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr "Zahlungsanbieter"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Payment Reference 1: "
+msgstr "Verwendungszweck 1: "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Payment Reference 2: "
+msgstr "Verwendungszweck 2: "
+
+#. module: payment_novalnet
+#: model:ir.model,name:payment_novalnet.model_payment_token
+msgid "Payment Token"
+msgstr "Zahlungs-Token"
+
+#. module: payment_novalnet
+#: model:ir.model,name:payment_novalnet.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "Zahlungstransaktion"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_access_key
+#, python-format
+msgid "Payment access key"
+msgstr "Zahlungs-Zugriffsschlüssel "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_manual_check_limit
+#, python-format
+msgid "Payment action"
+msgstr "Bearbeitungsmaßnahme"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_invoice_due_date
+#, python-format
+msgid "Payment due date (in days)"
+msgstr " Fälligkeitsdatum (in Tagen) "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_callback_order_status__pending
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_completion_order_status__pending
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_cancellation_status__pending
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_on_hold_confirmation_status__pending
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__novalnet_pending_order_status__pending
+#, python-format
+msgid "Pending"
+msgstr "Ausstehend"
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_form
+msgid ""
+"Please don’t close the browser after successful payment, until you have "
+"been redirected back to the Shop&lt;/p&gt;"
+msgstr ""
+" Bitte schließen Sie den Browser nach der erfolgreichen Zahlung nicht, bis "
+"Sie zum Shop zurückgeleitet wurden&lt;/p&gt;"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid ""
+"Please transfer the amount to the below mentioned account details of our "
+"payment processor Novalnet"
+msgstr ""
+" Überweisen Sie bitte den Betrag an die unten aufgeführte Bankverbindung "
+"unseres Zahlungsdienstleisters Novalnet. "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid ""
+"Please use the following payment reference for your money transfer, as only "
+"through this way your payment is matched and assigned to the order:"
+msgstr ""
+" Bitte verwenden Sie nur den unten angegebenen Verwendungszweck für die "
+"Überweisung, da nur so Ihr Geldeingang zugeordnet werden kann: "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Prepayment"
+msgstr " Vorauskasse"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_product
+#, python-format
+msgid "Project ID"
+msgstr " Projekt-ID "
+
+#. module: payment_novalnet
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__provider
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_token__provider
+msgid "Provider"
+msgstr "Anbieter"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_referrer_id
+#, python-format
+msgid "Referrer ID"
+msgstr "Partner-ID "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_sepa_due_date
+#, python-format
+msgid "SEPA payment duration (in days)"
+msgstr " Abstand (in Tagen) bis zum SEPA-Einzugsdatum "
+
+#. module: payment_novalnet
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_token__save_token
+msgid "Save Cards"
+msgstr "Karten speichern"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Slip Expire date: %s"
+msgstr "Verfallsdatum des Zahlscheins %s"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_cashpayment_slip_expiry_date
+#, python-format
+msgid "Slip expiry date (in days)"
+msgstr "Verfallsdatum des Zahlscheins (in Tagen) "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_tariff
+#, python-format
+msgid "Tariff ID"
+msgstr "Tarif-ID "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "Test order\n"
+msgstr " Testbestellung\n"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_enable_cc3d
+#, python-format
+msgid ""
+"The 3D-Secure will be activated for credit cards. The issuing bank prompts "
+"the buyer for a password what, in turn, help to prevent a fraudulent "
+"payment. It can be used by the issuing bank as evidence that the buyer is "
+"indeed their card holder. This is intended to help decrease a risk of "
+"charge-back."
+msgstr ""
+" 3D-Secure wird für Kreditkarten aktiviert. Die kartenausgebende Bank fragt "
+"vom Käufer ein Passwort ab, welches helfen soll, betrügerische Zahlungen zu "
+"verhindern. Dies kann von der kartenausgebenden Bank als Beweis verwendet "
+"werden, dass der Käufer tatsächlich der Inhaber der Kreditkarte ist. Damit "
+"soll das Risiko von Chargebacks verringert werden. "
+
+#. module: payment_novalnet
+#: model:ir.model.fields,help:payment_novalnet.field_payment_token__novalnet_payment_method
+msgid "This contains the payment type of the token"
+msgstr ""
+
+#. module: payment_novalnet
+#: model:ir.model.fields,help:payment_novalnet.field_payment_token__save_token
+msgid ""
+"This option allows customers to save their credit card as a payment token "
+"and to reuse it for a later purchase. If you manage subscriptions "
+"(recurring invoicing), you need it to automatically charge the customer "
+"when you issue an invoice."
+msgstr ""
+"Diese Option ermöglicht es Kunden, Ihre Kreditkarte als Zahlungs-Token zu "
+"speichern und sie für eine spätere Zahlung wiederzuverwenden. Wenn Sie "
+"Abonnements verwalten (wiederkehrende Rechnungsstellung), müssen Sie dem "
+"Kunden automatisch etwas berechnen, wenn Sie eine Rechnung ausstellen."
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_callbackscript_test_mode
+#, python-format
+msgid ""
+"This option will allow performing a manual execution. Please disable this "
+"option before setting your shop to LIVE mode, to avoid unauthorized calls "
+"from external parties (excl. Novalnet)."
+msgstr ""
+" Diese Option ermöglicht eine manuelle Ausführung. Bitte deaktivieren Sie "
+"diese Option, bevor Sie Ihren Shop in den LIVE-Modus schalten, um nicht "
+"autorisierte Zugriffe von externen Parteien (außer von Novalnet) zu "
+"vermeiden. "
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid ""
+"To setup Notification/Webhook URL, you must add the following webhook "
+"endpoint in this format { Shop_url/payment/novalnet/callback/?"
+"db=shopdb_name } in your"
+msgstr ""
+"Um eine Notification-/Webhook-URL einzurichten, müssen Sie imden folgenden "
+"Webhook-Ausgangspunkt im Format { Shop_url/payment/novalnet/callback/?"
+"db=shopdb_name } "
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid ""
+"To use the PayPal payment method please enter your PayPal API details in"
+msgstr ""
+" Um die Zahlungsart PayPal zu verwenden, geben Sie bitte Ihre PayPal-API-"
+"Daten"
+
+#. module: payment_novalnet
+#: model_terms:payment.acquirer,auth_msg:payment_novalnet.payment_acquirer_novalnet
+msgid "Your payment has been authorized."
+msgstr ""
+
+#. module: payment_novalnet
+#: model_terms:payment.acquirer,cancel_msg:payment_novalnet.payment_acquirer_novalnet
+msgid "Your payment has been cancelled."
+msgstr ""
+
+#. module: payment_novalnet
+#: model_terms:payment.acquirer,pending_msg:payment_novalnet.payment_acquirer_novalnet
+msgid ""
+"Your payment has been successfully processed but is waiting for approval."
+msgstr ""
+
+#. module: payment_novalnet
+#: model_terms:payment.acquirer,done_msg:payment_novalnet.payment_acquirer_novalnet
+msgid "Your payment has been successfully processed. Thank you!"
+msgstr ""
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "ending in %s (expires "
+msgstr "mit Endziffern %s (gültig bis "
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "eps"
+msgstr "eps"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "giropay"
+msgstr "Giropay"
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment.py:0
+#, python-format
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#. module: payment_novalnet
+#: model:ir.model,name:payment_novalnet.model_novalnet_table
+msgid "novalnet.table"
+msgstr ""
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.acquirer_form_novalnet
+msgid "sales@novalnet.de"
+msgstr "sales@novalnet.de"

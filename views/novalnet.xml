@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="payment_novalnet_redirect_failure" name="Payment Novalnet Failure">
+        <script type="text/javascript">
+            alert('<t t-esc="novalnet_post_message"/>');
+            window.location.href = '<t t-esc="return_url"/>';
+        </script>
+    </template>
+    <template id="payment_novalnet_redirect_success" name="Payment Novalnet Success">
+        <script type="text/javascript">
+            window.location.href = '<t t-esc="return_url"/>';
+        </script>
+    </template>
+</odoo>
+
