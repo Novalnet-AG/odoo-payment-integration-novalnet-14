@@ -1,0 +1,357 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* payment_novalnet
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-30 18:19+0530\n"
+"PO-Revision-Date: 2016-05-04 14:03+0530\n"
+"Last-Translator: Novalnet <sales@novalnet.de>\n"
+"Language-Team: Novalnet <sales@novalnet.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: models/payment.py:69 models/payment.py:109
+msgid "Enable Test Mode"
+msgstr ""
+
+#: models/payment.py:69
+msgid ""
+"The payment will be processed in the test mode therefore amount for this "
+"transaction will not be charged"
+msgstr ""
+
+#: models/payment.py:70
+msgid "Merchant ID"
+msgstr ""
+
+#: models/payment.py:70
+msgid "Enter Novalnet merchant ID"
+msgstr ""
+
+#: models/payment.py:71
+msgid "Authentication code"
+msgstr ""
+
+#: models/payment.py:71
+msgid "Enter Novalnet authentication code"
+msgstr ""
+
+#: models/payment.py:72
+msgid "Project ID"
+msgstr ""
+
+#: models/payment.py:72
+msgid "Enter Novalnet project ID"
+msgstr ""
+
+#: models/payment.py:73
+msgid "Tariff ID"
+msgstr ""
+
+#: models/payment.py:73
+msgid "Enter Novalnet tariff ID"
+msgstr ""
+
+#: models/payment.py:74
+msgid "Payment access key"
+msgstr ""
+
+#: models/payment.py:74
+msgid "Enter the Novalnet payment access key"
+msgstr ""
+
+#: models/payment.py:75 models/payment.py:79 models/payment.py:83
+#: models/payment.py:87 models/payment.py:91
+msgid "Draft"
+msgstr ""
+
+#: models/payment.py:75 models/payment.py:79 models/payment.py:83
+#: models/payment.py:87 models/payment.py:91
+msgid "Pending"
+msgstr ""
+
+#: models/payment.py:76 models/payment.py:80 models/payment.py:84
+#: models/payment.py:88 models/payment.py:92
+msgid "Done"
+msgstr ""
+
+#: models/payment.py:76 models/payment.py:80 models/payment.py:84
+#: models/payment.py:88 models/payment.py:92
+msgid "Error"
+msgstr ""
+
+#: models/payment.py:77 models/payment.py:81 models/payment.py:85
+#: models/payment.py:89 models/payment.py:93
+msgid "Canceled"
+msgstr ""
+
+#: models/payment.py:78
+msgid "Order completion status"
+msgstr ""
+
+#: models/payment.py:82 models/payment.py:86
+msgid "Callback order status"
+msgstr ""
+
+#: models/payment.py:90 models/payment.py:94
+msgid "Order status for the pending payment"
+msgstr ""
+
+#: models/payment.py:95
+msgid ""
+"Set a limit for on-hold transaction (in minimum unit of currency. E.g. enter "
+"100 which is equal to 1.00)"
+msgstr ""
+
+#: models/payment.py:95
+msgid ""
+"In case the order amount exceeds mentioned limit, the transaction will be "
+"set on hold till your confirmation of transaction"
+msgstr ""
+
+#: models/payment.py:96
+msgid "Enable 3D secure"
+msgstr ""
+
+#: models/payment.py:96
+msgid ""
+"The 3D-Secure will be activated for credit cards. The issuing bank prompts "
+"the buyer for a password what, in turn, help to prevent a fraudulent "
+"payment. It can be used by the issuing bank as evidence that the buyer is "
+"indeed their card holder. This is intended to help decrease a risk of charge-"
+"back."
+msgstr ""
+
+#: models/payment.py:97
+msgid "SEPA payment duration (in days)"
+msgstr ""
+
+#: models/payment.py:97
+msgid ""
+"Enter the number of days after which the payment should be processed (must "
+"be greater than 6 days)"
+msgstr ""
+
+#: models/payment.py:98
+msgid "Payment due date (in days)"
+msgstr ""
+
+#: models/payment.py:98
+msgid ""
+"Enter the number of days to transfer the payment amount to Novalnet (must be "
+"greater than 7 days). In case if the field is empty, 14 days will be set as "
+"due date by default"
+msgstr ""
+
+#: models/payment.py:99 models/payment.py:102
+msgid "Payment Reference 1 (Novalnet Invoice Reference)"
+msgstr ""
+
+#: models/payment.py:100 models/payment.py:103
+msgid "Payment Reference 2 (TID)"
+msgstr ""
+
+#: models/payment.py:101 models/payment.py:104
+msgid "Payment Reference 3 (Order No)"
+msgstr ""
+
+#: models/payment.py:105
+msgid "Referrer ID"
+msgstr ""
+
+#: models/payment.py:105
+msgid ""
+"Enter the referrer ID of the person/company who recommended you Novalnet"
+msgstr ""
+
+#: models/payment.py:106
+msgid "Transaction reference 1"
+msgstr ""
+
+#: models/payment.py:106 models/payment.py:107
+msgid "This reference will appear in your bank account statement"
+msgstr ""
+
+#: models/payment.py:107
+msgid "Transaction reference 2"
+msgstr ""
+
+#: models/payment.py:108
+msgid "Enable Debug Mode"
+msgstr ""
+
+#: models/payment.py:108
+msgid "Set the debug mode to execute the merchant script in debug mode"
+msgstr ""
+
+#: models/payment.py:110
+msgid "Enable E-mail notification for callback"
+msgstr ""
+
+#: models/payment.py:111
+msgid "E-mail address (From)"
+msgstr ""
+
+#: models/payment.py:111
+msgid "E-mail address of the sender"
+msgstr ""
+
+#: models/payment.py:112
+msgid "E-mail address (To)"
+msgstr ""
+
+#: models/payment.py:112
+msgid "E-mail address of the recipient"
+msgstr ""
+
+#: models/payment.py:113
+msgid "E-mail address (Bcc)"
+msgstr ""
+
+#: models/payment.py:113
+msgid "E-mail address of the recipient for BCC"
+msgstr ""
+
+#: models/payment.py:114
+msgid "Notification URL"
+msgstr ""
+
+#: models/payment.py:114
+msgid ""
+"The notification URL is used to keep your database/system actual and "
+"synchronizes with the Novalnet transaction status."
+msgstr ""
+
+#: models/payment.py:242
+msgid "Basic parameter not valid"
+msgstr ""
+
+#: models/payment.py:247 models/payment.py:251
+msgid "Please select atleast one payment reference."
+msgstr ""
+
+#: models/payment.py:256
+msgid "SEPA Due date is not valid"
+msgstr ""
+
+#: models/payment.py:439
+msgid "Credit Card"
+msgstr ""
+
+#: models/payment.py:440
+msgid "Invoice / Prepayment"
+msgstr ""
+
+#: models/payment.py:441
+msgid "Instant Bank Transfer"
+msgstr ""
+
+#: models/payment.py:442
+msgid "PayPal"
+msgstr ""
+
+#: models/payment.py:443 models/payment.py:444
+msgid "Direct Debit SEPA"
+msgstr ""
+
+#: models/payment.py:445 models/payment.py:507
+msgid "Invoice"
+msgstr ""
+
+#: models/payment.py:446
+msgid "iDEAL"
+msgstr ""
+
+#: models/payment.py:447
+msgid "eps"
+msgstr ""
+
+#: models/payment.py:448
+msgid "giropay"
+msgstr ""
+
+#: models/payment.py:449
+msgid "Przelewy24"
+msgstr ""
+
+#: models/payment.py:470
+#, python-format
+msgid ""
+"\n"
+"Novalnet Transaction ID: %s \n"
+msgstr ""
+
+#: models/payment.py:470
+msgid "Test order\n"
+msgstr ""
+
+#: models/payment.py:479
+msgid ""
+"Please transfer the amount to the below mentioned account details of our "
+"payment processor Novalnet"
+msgstr ""
+
+#: models/payment.py:479
+msgid "Due date: "
+msgstr ""
+
+#: models/payment.py:479
+msgid "Account holder: NOVALNET AG"
+msgstr ""
+
+#: models/payment.py:479
+msgid "IBAN: "
+msgstr ""
+
+#: models/payment.py:479
+msgid "BIC: "
+msgstr ""
+
+#: models/payment.py:479
+msgid "Bank: "
+msgstr ""
+
+#: models/payment.py:479
+msgid "Amount: "
+msgstr ""
+
+#: models/payment.py:491
+msgid "Order number "
+msgstr ""
+
+#: models/payment.py:493
+msgid ""
+"Please use any one of the following references as the payment reference, as "
+"only through this way your payment is matched and assigned to the order: "
+msgstr ""
+
+#: models/payment.py:493
+msgid ""
+"\n"
+"Please use the following payment reference for your money transfer, as only "
+"through this way your payment is matched and assigned to the order:"
+msgstr ""
+
+#: models/payment.py:498
+msgid "Payment Reference: "
+msgstr ""
+
+#: models/payment.py:498
+#, python-format
+msgid "Payment Reference %s: "
+msgstr ""
+
+#: models/payment.py:507
+msgid "Prepayment"
+msgstr ""
