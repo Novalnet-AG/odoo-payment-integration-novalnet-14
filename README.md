@@ -66,12 +66,17 @@ See our License Agreement at: https://www.novalnet.com/payment-plugins/free/lice
 ## Your Feedback
 For any kind of inquiries or feedback, please get in touch with us via the following contact information or open an issue here in Github. 
 
-technic@novalnet.de<br>
-+49 89 9230683-19<br>
+## Documentation & Support
+For more information about the Odoo Payment Integration by Novalnet, please get in touch with us: <a href="mailto:sales@novalnet.de"> sales@novalnet.de </a> or +49 89 9230683-20<br>
 
-sales@novalnet.de<br>
-+49 89 9230683-21<br>
+Novalnet AG<br>
+Zahlungsinstitut (ZAG)<br>
+Gutenbergstraße 7<br>
+D-85748 Garching<br>
+Deutschland<br>
+E-mail: sales@novalnet.de<br>
+Tel: +49 89 9230683-20<br>
+Web: www.novalnet.de
 
 ## About Novalnet AG
 <a href="https://www.novalnet.de/kontakt/sales"> Novalnet AG </a>is a leading financial services institution offering online gateways for processing of online payments. Operating in the market as a full payment service provider, Novalnet offers online merchants user-friendly payment modules for all major shop systems as well as for self-programmed websites. The product and service portfolio is very comprehensive and includes all commonly used payment methods of online payment. These include a variety of intelligent fraud prevention modules, free technical support, an automated accounts receivable management system, a comprehensive subscription and membership management, as well as a very useful affiliate program
-
